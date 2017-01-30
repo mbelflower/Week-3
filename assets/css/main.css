@@ -1,0 +1,202 @@
+html, body {
+	background: red;
+	width: 100%;
+	height: 100%;
+}
+
+.a {
+	background: grey;
+}
+
+.b {
+	background: magenta;
+}
+
+.c {
+	background: cyan;
+}
+
+.d {
+	background: yellow;
+}
+
+/*LAYOUT 1*/
+
+/*SMALL*/
+@media screen and (min-width: 0px) {
+
+	.a {
+		height: 20%;
+		width: 100%;
+	}
+
+	.b, .c {
+		height: 40%;
+		width: 100%;
+	}
+
+}
+
+/*MEDIUM*/
+@media screen and (min-width: 768px) {
+
+	.b, .c {
+		height: 80%;
+		width: 50%;
+		float: left;
+	}
+}
+
+/*LARGE*/
+@media screen and (min-width: 1024px) {
+
+	.b {
+		width: 25%;
+	}
+
+	.c {
+		width: 75%;
+	}
+}
+
+/*Layout 2*/
+
+/*SMALL*/
+@media screen and (min-width: 0px) {
+
+	.l2 .a {
+		height: 50%;
+		width: 100%;
+	}
+
+	.l2 .b, .l2 .c {
+		height: 50%;
+		width: 50%;
+		float: left;
+	}
+
+}
+
+/*MEDIUM*/
+@media screen and (min-width: 768px) {
+
+	.l2 .a {
+		width: 50%;
+		height: 100%;
+		float: left;
+	}
+
+	.l2 .b, .l2 .c {
+		height: 50%;
+		width: 50%;
+		float: left;
+	}
+}
+
+/*LARGE*/
+@media screen and (min-width: 1024px) {
+
+	.l2 .a {
+		width: 30%;
+		height: 50%;
+	}
+
+	.l2 .b {
+		width: 70%;
+	}
+
+	.l2 .c {
+		width: 100%;
+	}
+}
+
+/*LAYOUT 3*/
+
+/*SMALL*/
+@media screen and (min-width: 0px) {
+
+	.l3 .a, .l3 .c {
+		height: 50%;
+		width: 50%;
+		float: left;
+	}
+
+	.l3 .b, .l3 .d {
+		height: 50%;
+		width: 50%;
+		float: right;
+	}
+}
+
+/*MEDIUM*/
+@media screen and (min-width: 768px) {
+
+	.l3 .a {
+		width: 100%;
+		height: 50%
+	}
+
+	.l3 .b, .l3 .c, .l3 .d {
+		width: 33.333333%;
+		float: left;
+	}
+}
+
+/*LARGE*/
+@media screen and (min-width: 1024px) {
+
+	.l3 .a, .l3 .b, .l3 .c, .l3 .d {
+		width: 25%;
+		height: 100%
+	}
+}
+
+
+/*LAYOUT 4*/
+
+/*SMALL*/
+@media screen and (min-width: 0px) {
+
+	.l4 .a {
+		height: 100%;
+		width: 25%;
+		float: left;
+	}
+
+	.l4 .b, .l4 .c, .l4 .d {
+		height: 33.3333333%;
+		width: 75%;
+		float: left;
+	}
+}
+
+/*MEDIUM*/
+@media screen and (min-width: 768px) {
+
+	.l4 .a {
+		height: 50%
+	}
+
+	.l4 .b {
+		height: 50%
+	}
+
+	.l4 .c, .l4 .d {
+		width: 50%;
+		height: 50%;
+	}
+}
+
+/*LARGE*/
+@media screen and (min-width: 1024px) {
+
+	.l4 .c {
+		width: 75%;
+	}
+
+	.l4 .d {
+		width: 25%;
+	}
+}
+
+

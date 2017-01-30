@@ -1,0 +1,41 @@
+bradfront.com
+
+Media Queries:
+
+Device Width * Pixel Density= Layout Width
+
+Viewport (visable area of a device)
+	https://screensiz.es
+
+Viewport Possissibilities:
+	<meta name="vieport" content="directive,directive"/>
+	<meta name="vieport" content="width=device-width"/>
+	<meta name+"viewport" content="user-scalable=no"
+	@viewport
+
+
+What you Really Need:
+<meta name="vieport" content="width=device-width"/>
+	NEED FOR RESPONSIVE
+
+
+CSS
+@media [not/only] type [and]
+
+Start media query at 0.
+
+Media Espressions:
+	width
+	height
+	orientation
+	resolution
+	aspect-ratio
+
+START WITH THE SMALLEST!!!!!
+
+
+NAVIGATION: changes the most!
+	bradfront.com
+
+
+Marigns are bonus!!
